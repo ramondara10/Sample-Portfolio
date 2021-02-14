@@ -2,6 +2,7 @@
 * {
     box-sizing: border-box;
 }
+/* header*/
 
 .my-portfolio{
     padding: 25px 0px 25px 0px;
@@ -32,7 +33,7 @@ h1{
     margin: 0px 0px 10px 0px;
     line-height: 60px;
 }
-
+/* nav bar*/
 body{
     margin: 0px;
     padding: 0px;
@@ -119,6 +120,8 @@ a{
     position: relative;
     bottom: 100px;
 }
+
+/* this section is to added, modify and work experience*/
 
 .sc img{
     width: 100%;
@@ -228,6 +231,8 @@ h2{
     border-radius: 10px;
 }
 
+/* this area is for footer or additional info regarding contact*/
+
 footer{
     text-align: center;
     position: relative;
@@ -250,6 +255,8 @@ footer{
     position: relative;
     bottom: 50px;
 }
+
+/*screen adjusted for tablet*/
 
     @media screen and (max-width: 768px ) {
         html {
@@ -300,6 +307,8 @@ footer{
 
 
     }
+
+    /*screen adjusted for phone*/
 
     @media screen and (max-width: 360px) {
 
@@ -375,5 +384,5 @@ footer{
             left: 80px;
         }
 
-        
+
     }
